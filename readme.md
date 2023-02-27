@@ -1,20 +1,6 @@
-T-bone
+Breakdown of Work:
 
-Brentt
-
-Neymar
-
-
-Plan
-
-let's do research on our own time before the spring break
-
-work on actual coding stuff during the spring break and try finishing it in that week.
-
-
-
-example
-
+Example below:
 March 9th (First Sprint Complete)
 Amy Chan:
 I worked on the following tasks:
