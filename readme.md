@@ -4,6 +4,15 @@ Brentt
 
 Neymar
 
+
+Plan
+
+let's do research on our own time before the spring break
+
+work on actual coding stuff during the spring break and try finishing it in that week.
+
+
+
 example
 
 March 9th (First Sprint Complete)
