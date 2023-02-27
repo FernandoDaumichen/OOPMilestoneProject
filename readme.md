@@ -6,9 +6,6 @@ Brentt
 
 Fehfeh
 
-
-
-
 Breakdown of Work:
 
 Example below:
