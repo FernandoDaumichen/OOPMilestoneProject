@@ -6,7 +6,7 @@ Brett
 
 Fernando
 
-----------------------------------------------------------------------------------------------
+---
 
 Breakdown of Work:
 
@@ -16,7 +16,7 @@ personal readings and research (will be doing actual coding together during the 
 not limited to contribute whatever one can.
 Hey Brett, please revise this ugly writings to sound better ;)
 
-----------------------------------------------------------------------------------------------
+---
 
 Together as a group
 
@@ -25,7 +25,7 @@ Feb 27
 - created the repo clone to each console and upload the starter code, create each branches - starting of the project.
 - planed out general sprint, decided on meetings and work days
 
-----------------------------------------------------------------------------------------------
+---
 
 Brett Gill: I worked on the following tasks:
 
@@ -34,7 +34,7 @@ Brett Gill: I worked on the following tasks:
 - This task is responsible for xyz functionality.
   I also needed to research on Youtube and Google the following things:
 
-----------------------------------------------------------------------------------------------
+---
 
 Tony Paik: I worked on the following tasks:
 
@@ -48,7 +48,7 @@ Mar 4
 
 - worked on PassportConfig.ts - login using passport local strategy
 
-----------------------------------------------------------------------------------------------
+---
 
 Fernando Daumichen: I worked on the following tasks:
 
@@ -56,6 +56,6 @@ Fernando Daumichen: I worked on the following tasks:
 - This task is responsible for xyz functionality.
 - This task is responsible for xyz functionality.
 
-----------------------------------------------------------------------------------------------
+---
 
 I also needed to research on Youtube and Google the following things:
