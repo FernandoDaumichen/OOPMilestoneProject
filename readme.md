@@ -6,37 +6,43 @@ Brett
 
 Fernando
 
-
 Breakdown of Work:
 
-Example below:
-March 9th (First Sprint Complete)
+Sprint 1 First Sprint Complete by March 10th Friday (last day before the spring break)
 
-Brett Gill:
-I worked on the following tasks:
+personal readings and research (will be doing actual coding together during the break)
+not limited to contribute whatever one can.
+Hey Brett, please revise this ugly writings to sound better ;)
 
-1. <Insert Some Task Here> - This task is responsible for xyz functionality.
-2. <Insert Some Task Here> - This task is responsible for xyz functionality.
-3. <Insert Some Task Here> - This task is responsible for xyz functionality.
+Together as a group
 
-I also needed to research on Youtube and Google the following things:
+Feb 27
 
-1. <Insert Video or Link to thing you needed to research>
+- created the repo clone to each console and upload the starter code, create each branches - starting of the project.
+- planed out general sprint, decided on meetings and work days
 
-Tony Paik:
-I worked on the following tasks:
+Brett Gill: I worked on the following tasks:
 
-1. <Insert Some Task Here> - This task is responsible for xyz functionality.
-2. <Insert Some Task Here> - This task is responsible for xyz functionality.
-3. <Insert Some Task Here> - This task is responsible for xyz functionality.
+- This task is responsible for xyz functionality.
+- This task is responsible for xyz functionality.
+- This task is responsible for xyz functionality.
+  I also needed to research on Youtube and Google the following things:
 
-Fernando Daumichen:
-I worked on the following tasks:
+Tony Paik: I worked on the following tasks:
 
-1. <Insert Some Task Here> - This task is responsible for xyz functionality.
-2. <Insert Some Task Here> - This task is responsible for xyz functionality.
-3. <Insert Some Task Here> - This task is responsible for xyz functionality.
+Feb 28
 
-I also needed to research on Youtube and Google the following things:
+- read the notion instruction page - to get the project start
+- some a href path fix - direct to the right page when clicked.
+- z-index on a banner from register page fix - was not able to click the banner due to lower z-index order.
 
-1. <Insert Video or Link to thing you needed to research>
+Mar 4
+
+- worked on PassportConfig.ts - login using passport local strategy
+
+Fernando Daumichen: I worked on the following tasks:
+
+- This task is responsible for xyz functionality.
+- This task is responsible for xyz functionality.
+- This task is responsible for xyz functionality.
+  I also needed to research on Youtube and Google the following things:
