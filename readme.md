@@ -18,6 +18,8 @@ First Sprint Complete by March 10th Friday (last day before the spring break)
 
 
 Together as a group
+
+Feb 27
 1. created the repo clone to each console and upload the starter code, create each branches - starting of the project.
 2. planed out general sprint, decided on meetings and work days
 
@@ -36,6 +38,7 @@ I also needed to research on Youtube and Google the following things:
 Tony Paik:
 I worked on the following tasks:
 
+Feb 28
 1. read the notion instruction page - to get the project start
 2. some a href path fix - direct to the right page when clicked.
 3. z-index on a banner from register page fix - was not able to click the banner due to lower z-index order.
