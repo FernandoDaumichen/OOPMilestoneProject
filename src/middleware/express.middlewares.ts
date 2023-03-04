@@ -1,7 +1,9 @@
 import express from "express";
 import path from "path";
-import session from "express-session";
+import session, { MemoryStore } from "express-session";
 import morgan from "morgan";
+
+const memoryStore = new MemoryStore();
 
 module.exports = (app) => {
   // Static File Serving and Post Body Parsing
@@ -16,6 +18,7 @@ module.exports = (app) => {
   // Session Configuration
   app.use(
     session({
+      store: memoryStore,
       secret: "secret",
       resave: false,
       saveUninitialized: false,
