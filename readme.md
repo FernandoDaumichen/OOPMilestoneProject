@@ -45,4 +45,5 @@ Fernando Daumichen: I worked on the following tasks:
 - This task is responsible for xyz functionality.
 - This task is responsible for xyz functionality.
 - This task is responsible for xyz functionality.
-  I also needed to research on Youtube and Google the following things:
+
+I also needed to research on Youtube and Google the following things:
