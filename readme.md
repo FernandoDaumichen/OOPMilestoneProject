@@ -40,6 +40,7 @@ Mar 4
 
 - worked on PassportConfig.ts - login using passport local strategy
 - read tailwind doc and applied utility-first css to the ejs file - main theme color change
+- express.middlewares.ts - added MemoryStore() to the file
 
 Fernando Daumichen: I worked on the following tasks:
 
