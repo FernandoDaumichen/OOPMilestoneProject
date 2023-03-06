@@ -1,6 +1,16 @@
 import IDatabase from "../interfaces/database.interface.ts";
 
-// Please feel free to not use this, or completely change it to your liking. It is just an example.
+// Please feel free to not use this, or completely change it to your liking. It is just an example.]
+
+declare global {
+  namespace NodeJS {
+    interface Global {
+      database: IDatabase;
+    }
+  }
+}
+
+
 const database: IDatabase = {
   users: [
     {
