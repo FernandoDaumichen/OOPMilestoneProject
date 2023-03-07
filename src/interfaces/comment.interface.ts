@@ -1,5 +1,5 @@
 interface IComment {
-  commentId: Array<number>;
+  commentId: number;
   userId: number;
   postId: number;
   createdAt: Date;
