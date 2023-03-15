@@ -30,9 +30,9 @@ class PostController implements IController {
   };
 
   // 🚀 These post methods needs to be implemented by you
-  private createComment = async (req: Request, res: Response, next: NextFunction) => {};
-  private createPost = async (req: Request, res: Response, next: NextFunction) => {};
-  private deletePost = async (req: Request, res: Response, next: NextFunction) => {};
+  private createComment = async (req: Request, res: Response, next: NextFunction) => { };
+  private createPost = async (req: Request, res: Response, next: NextFunction) => { };
+  private deletePost = async (req: Request, res: Response, next: NextFunction) => { };
 }
 
 export default PostController;

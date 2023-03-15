@@ -1,13 +1,13 @@
 import IPost from "./post.interface";
 
 export default interface IUser {
-  userId: number;
+  id: string;
   username: string;
-  firstName: string;
-  lastName: string;
   email: string;
   password: string;
-  following?: Array<number>;
+  firstName: string;
+  lastName: string;
   posts?: Array<IPost>;
-  role: string;
+  following?: Array<string>;
+  reposts?: Array<string>;
 }
