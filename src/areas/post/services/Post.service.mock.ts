@@ -11,22 +11,22 @@ export class MockPostService implements IPostService {
     user.posts.push(post);
   }
   getAllPosts(username: string): IPost[] {
-     const findPostsUser = database.users.find((user) => user.username === username);
-      if (!findPostsUser) {
-        throw new Error("User not found");
-      }
-      const posts = findPostsUser.posts;
-      return posts;
+    const findPostsUser = database.users.find((user) => user.username === username);
+    if (!findPostsUser) {
+      throw new Error("User not found");
+    }
+    const posts = findPostsUser.posts;
+    return posts;
   }
   findById(id: string): IPost {
-    const findPost = database.posts.find((post)=> post.id === id);// I dont  know if this is right !!!!!!!!!!!!!!!
+    const findPost = database.posts.find((post) => post.id === id);// I dont  know if this is right !!!!!!!!!!!!!!!
     if (!findPost) {
       throw new Error("Post not found");
     }
     return findPost;
   }
   addCommentToPost(message: { id: string; createdAt: string; userId: string; message: string }, postId: string): void {
-    const findPost = database.posts.find((post)=> post.postId === postId);
+    const findPost = database.posts.find((post) => post.postId === postId);
     if (!findPost) {
       throw new Error("Post not found");
     }
@@ -34,12 +34,12 @@ export class MockPostService implements IPostService {
   }
 
   sortPosts(posts: IPost[]): IPost[] {
-    
+
     const sortedPosts = posts.sort((a, b) => {
       return b.createdAt.getTime() - a.createdAt.getTime();
     }
     );
     console.log(sortedPosts);
-     return sortedPosts;
+    return sortedPosts;
   }
 }

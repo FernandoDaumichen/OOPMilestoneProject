@@ -28,9 +28,11 @@ March 7th/ 2023
 Brett Gill: I worked on the following tasks:
 
 - Feb 27th- Cloned repo and worked on project delegation.
-- March 7th- Pulled Tony's new code and worked with him and Fernando to edit the fakeDB. Fixed all bugs.
+- March 7th- Pulled Tony's new code and worked with him and Fernando to edit the fakeDB. Fixed bugs(Note: cannot login with this db).
+- March 13th/14th- studied Tony's code versus starter code to understand how our devHouse functions. Watched videos on proper syntax for typescript routes. Started figuring out how I wanted to organize files(Difficult to navigate code as it stands).
+- March 15th- Came into school and started watching youtube videos to refresh typescript knowledge. Watched videos on Prisma to understand how to initially set it up.
 
-  I also needed to research what specific functionalities that this project needs.
+  I also needed to research what specific functionalities that this project needs.(Started working through assignment documentation March 13th)
 
 Tony Paik: I worked on the following tasks:
 
