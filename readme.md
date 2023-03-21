@@ -53,10 +53,14 @@ Mar 4
 Mar 20
 
 - created and filled files below
-- passport.localStrategy.middleware.ts
-- passport.middlewares.ts
 - PassportConfig.ts
 - passport.strategy.interface.ts
+
+Mar 21
+
+- Passport config.ts
+- Authentication.controller.ts
+- passport.middlewares.ts
 
 Fernando Daumichen: I worked on the following tasks:
 
