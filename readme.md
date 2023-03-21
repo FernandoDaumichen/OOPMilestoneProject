@@ -31,6 +31,8 @@ Brett Gill: I worked on the following tasks:
 - March 7th- Pulled Tony's new code and worked with him and Fernando to edit the fakeDB. Fixed bugs(Note: cannot login with this db).
 - March 13th/14th- studied Tony's code versus starter code to understand how our devHouse functions. Watched videos on proper syntax for typescript routes. Started figuring out how I wanted to organize files(Difficult to navigate code as it stands).
 - March 15th- Came into school and started watching youtube videos to refresh typescript knowledge. Watched videos on Prisma to understand how to initially set it up.
+- March 16th/17th- Watched several youtube videos and re-watched passport.js video. Can provide links.
+- March 21st- Move footers and headers from index.js to partials/header and footer. Linked all a tags in the footer either back to appropriate part of the page or to external website.
 
   I also needed to research what specific functionalities that this project needs.(Started working through assignment documentation March 13th)
 
