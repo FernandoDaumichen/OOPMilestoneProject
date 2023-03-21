@@ -1,6 +1,7 @@
 import express from "express";
 import IController from "../../../interfaces/controller.interface";
 import { IAuthenticationService } from "../services";
+import { forwardAuthenticated } from "../../../middleware/authentication.middleware";
 
 class AuthenticationController implements IController {
   public path = "/auth";
@@ -13,7 +14,7 @@ class AuthenticationController implements IController {
   private initializeRoutes() {
     this.router.get(`${this.path}/register`, this.showRegistrationPage);
     this.router.post(`${this.path}/register`, this.registration);
-    this.router.get(`${this.path}/login`, this.showLoginPage);
+    this.router.get(`${this.path}/login`, forwardAuthenticated, this.showLoginPage);
     this.router.post(`${this.path}/login`, this.login);
     this.router.post(`${this.path}/logout`, this.logout);
   }
@@ -27,9 +28,9 @@ class AuthenticationController implements IController {
   };
 
   // 🔑 These Authentication methods needs to be implemented by you
-  private login = (req: express.Request, res: express.Response) => { };
-  private registration = async (req: express.Request, res: express.Response, next: express.NextFunction) => { };
-  private logout = async (req: express.Request, res: express.Response) => { };
+  private login = (req: express.Request, res: express.Response) => {};
+  private registration = async (req: express.Request, res: express.Response, next: express.NextFunction) => {};
+  private logout = async (req: express.Request, res: express.Response) => {};
 }
 
 export default AuthenticationController;
