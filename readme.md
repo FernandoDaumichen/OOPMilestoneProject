@@ -65,7 +65,7 @@ Mar 24
 - Modified fakeDB.ts
 - Modified user.interface.ts
 - Modified post.controller.ts
-- Got the routes all working using the modified fakeDB.ts
+- Got the routes all working using the mockauthentication
 
 Fernando Daumichen: I worked on the following tasks:
 
