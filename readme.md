@@ -62,6 +62,13 @@ Mar 21
 - Authentication.controller.ts
 - passport.middlewares.ts
 
+Mar 24
+
+- Modified fakeDB.ts
+- Modified user.interface.ts
+- Modified post.controller.ts
+- Got the routes all working using the modified fakeDB.ts
+
 Fernando Daumichen: I worked on the following tasks:
 
 - This task is responsible for xyz functionality.
