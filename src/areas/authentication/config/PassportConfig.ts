@@ -3,6 +3,7 @@
 //----------------------------------------
 // 🚀 Configure Passport.js Local Authentication in this file
 //    Ensure code is fully typed wherever possible (unless inference can be made)
+
 import passport from "passport";
 import { PassportStrategy } from "../../../interfaces/passport.strategy.interface";
 import { MockAuthenticationService } from "../services/Authentication.service.mock";
@@ -22,7 +23,7 @@ export default class PassportConfig {
 
   private serializeUser(): void {
     passport.serializeUser(function (user: Express.User, done: (err: any, id?: number) => void) {
-      done(null, (user as any).id);
+      done(null, (user as any));
     });
   }
 
