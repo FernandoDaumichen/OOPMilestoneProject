@@ -25,6 +25,17 @@ const database: IDatabase = {
       followers: [2],
       role: "user",
     },
+    {
+      id: 3,
+      username: "Jimmy123",
+      firstName: "Jimmy",
+      lastName: "Smith",
+      email: "jimmy123@gmail.com",
+      password: "jimmy123!",
+      following: [1],
+      followers: [2],
+      role: "user",
+    },
   ],
 
   posts: [
