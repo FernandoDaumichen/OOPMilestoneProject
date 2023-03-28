@@ -69,6 +69,12 @@ Mar 24
 - Modified post.controller.ts
 - Got the routes all working using the mockauthentication
 
+Mar 27
+
+- Continue working on the authentication
+- got the create user and save it to the fakeDB working
+- login/logout working
+
 Fernando Daumichen: I worked on the following tasks:
 
 - This task is responsible for xyz functionality.
