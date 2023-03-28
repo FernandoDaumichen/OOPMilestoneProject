@@ -17,8 +17,8 @@ export class MockAuthenticationService implements IAuthenticationService {
       return null;
     }
   }
-  
-  public async getUserById(id: number): Promise<false | IUser> {
+
+  public async getUserById(id: string): Promise<false | IUser> {
     try {
       let user = this._db.users.find((user) => user.id === id);
       if (user) {
