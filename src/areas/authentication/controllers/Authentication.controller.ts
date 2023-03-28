@@ -1,9 +1,10 @@
 import express from "express";
 import IController from "../../../interfaces/controller.interface";
-import { IAuthenticationService } from "../services";
+import { IAuthenticationService, MockAuthenticationService } from "../services";
 import { forwardAuthenticated } from "../../../middleware/authentication.middleware";
 import passport from "passport";
-
+import IUser from "../../../interfaces/user.interface";
+import { database } from "../../../model/fakeDB";
 class AuthenticationController implements IController {
   public path = "/auth";
   public router = express.Router();
@@ -35,9 +36,18 @@ class AuthenticationController implements IController {
     failureMessage: true,
   });
 
-  private registration = async (req: express.Request, res: express.Response, next: express.NextFunction) => {};
+  private registration = async (req: express.Request, res: express.Response, next: express.NextFunction) => {
+    const { firstName, lastName, email, password } = req.body;
+    const authService = new MockAuthenticationService();
+    let username = firstName + lastName;
+    let id = database.users.length + 1;
+    const newUser: IUser = { id, username, firstName, lastName, email, password };
+    authService.createUser(newUser);
+    res.redirect(307, "/auth/login");
+  };
+
   private logout = async (req: express.Request, res: express.Response) => {
-    // req.logOut();
+    req.logout();
     res.redirect("/auth/login");
   };
 }

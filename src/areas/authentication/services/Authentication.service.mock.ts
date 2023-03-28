@@ -40,7 +40,7 @@ export class MockAuthenticationService implements IAuthenticationService {
     }
   }
 
-  public async createUser(user: any): Promise<IUser> {
+  public async createUser(user: IUser): Promise<IUser> {
     try {
       this._db.users.push(user);
       return user;
