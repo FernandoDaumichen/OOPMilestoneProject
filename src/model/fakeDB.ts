@@ -4,8 +4,8 @@ import IDatabase from "../interfaces/database.interface.ts";
 const database: IDatabase = {
   users: [
     {
-      id: 1,
-      username: "ad123",
+      id: "ArmaanDahnji",
+      username: "ArmaanDahnji",
       firstName: "Armaan",
       lastName: "Dahnji",
       email: "ad123@gmail.com",
@@ -15,8 +15,8 @@ const database: IDatabase = {
       followers: [2],
     },
     {
-      id: 2,
-      username: "bg123",
+      id: "BillGates",
+      username: "BillGates",
       firstName: "Bill",
       lastName: "Gates",
       email: "bg123@gmail.com",
@@ -26,10 +26,10 @@ const database: IDatabase = {
       role: "user",
     },
     {
-      id: 3,
-      username: "js123",
-      firstName: "John",
-      lastName: "Smith",
+      id: "3",
+      username: "SteveJobs",
+      firstName: "Steve",
+      lastName: "Jobs",
       email: "js123@gmail.com",
       password: "js123123!",
       following: [1],
@@ -41,7 +41,7 @@ const database: IDatabase = {
   posts: [
     {
       postId: "1",
-      userId: "bg123",
+      userId: "SteveJobs",
       createdAt: "Thursday, March 2nd",
       message: "I'm seriously considering acquiring devHouse for 6 billion dollars...",
       comments: "0",
@@ -50,8 +50,8 @@ const database: IDatabase = {
       commentList: [],
     },
     {
-      postId: 2,
-      userId: "js123",
+      postId: "2",
+      userId: "ArmaanDahnji",
       createdAt: new Date(),
       message: "lolllllll",
       comments: "4",
@@ -60,8 +60,8 @@ const database: IDatabase = {
       commentList: [],
     },
     {
-      postId: 3,
-      userId: "js123",
+      postId: "3",
+      userId: "BillGates",
       createdAt: new Date(),
       message: "this is a new post by me",
       comments: "4",

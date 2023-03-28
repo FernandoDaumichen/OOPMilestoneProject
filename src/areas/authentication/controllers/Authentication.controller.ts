@@ -40,7 +40,7 @@ class AuthenticationController implements IController {
     const { firstName, lastName, email, password } = req.body;
     const authService = new MockAuthenticationService();
     let username = firstName + lastName;
-    let id = database.users.length + 1;
+    let id = firstName + lastName;
     const newUser: IUser = { id, username, firstName, lastName, email, password };
     authService.createUser(newUser);
     res.redirect(307, "/auth/login");
